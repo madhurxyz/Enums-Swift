@@ -68,7 +68,10 @@ func help(direction: CardinalDirection) -> String {
     case .northEast: return "This direction \(direction.rawValue) helps the ship go home."
     }
 }
-
+help(direction: .north)
+help(direction: .south)
+help(direction: .east)
+help(direction: .west)
 
 
 
