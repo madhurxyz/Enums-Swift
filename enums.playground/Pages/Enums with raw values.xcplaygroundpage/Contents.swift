@@ -63,7 +63,10 @@ enum CardinalDirection: String {
     case south = "↓"
 }
 func help(direction: CardinalDirection) -> String {
-    
+    switch direction {
+    case .north, .northWest, .east, .west, .southEast, .southWest, .south: return "This direction \(direction.rawValue) does not help the ship go home."
+    case .northEast: return "This direction \(direction.rawValue) helps the ship go home."
+    }
 }
 
 
