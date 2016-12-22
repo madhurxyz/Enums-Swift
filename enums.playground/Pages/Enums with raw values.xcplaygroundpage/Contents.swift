@@ -74,6 +74,11 @@ help(direction: .east)
 help(direction: .west)
 
 
+help(direction: .northWest)
+help(direction: .southWest)
+help(direction: .southEast)
+help(direction: .northEast)
+
 
 
 
