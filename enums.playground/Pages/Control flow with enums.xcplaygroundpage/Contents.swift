@@ -105,4 +105,7 @@ func getWeekdayName(weekday: Weekday) -> String {
     let dayString = "this weekday is called \(weekday)"
     return dayString
 }
+getWeekdayName(weekday: Weekday.sunday)
+getWeekdayName(weekday: Weekday.friday)
+getWeekdayName(weekday: Weekday.monday)
 
