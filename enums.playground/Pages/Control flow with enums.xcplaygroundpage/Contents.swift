@@ -101,5 +101,7 @@ enum Weekday {
     case saturday
     case sunday
 }
-
+func getWeekdayName(weekday: Weekday) -> String {
+    return String(describing: weekday)
+}
 
