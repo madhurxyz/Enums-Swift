@@ -52,7 +52,16 @@ Weekday2.monday.rawValue
  3. Model a type called `Month` using an `enum`. That type should represent all the different months in one year. 
  4. Write a function that returns a `String` and indicates at which position this month is inside a year, e.g.: `March is the 3rd month of the year`.
  */
-
+enum CardinalDirection: String {
+    case north = "↑"
+    case northEast = "↑→"
+    case northWest = "←↑"
+    case east = "→"
+    case west = "←"
+    case southEast = "↓→"
+    case southWest = "←↓"
+    case south = "↓"
+}
 
 
 
