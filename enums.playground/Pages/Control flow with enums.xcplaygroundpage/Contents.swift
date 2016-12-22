@@ -109,3 +109,9 @@ getWeekdayName(weekday: Weekday.sunday)
 getWeekdayName(weekday: Weekday.friday)
 getWeekdayName(weekday: Weekday.monday)
 
+func isItFinallyWeekend(weekday: Weekday) -> String {
+    switch weekday {
+    case .monday: return "\(weekday) is a regular workday."
+    }
+}
+
