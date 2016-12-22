@@ -102,6 +102,7 @@ enum Weekday {
     case sunday
 }
 func getWeekdayName(weekday: Weekday) -> String {
-    return String(describing: weekday)
+    let dayString = "this weekday is called \(weekday)"
+    return dayString
 }
 
