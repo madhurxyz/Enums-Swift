@@ -62,6 +62,9 @@ enum CardinalDirection: String {
     case southWest = "←↓"
     case south = "↓"
 }
+func help(direction: CardinalDirection) -> String {
+    
+}
 
 
 
