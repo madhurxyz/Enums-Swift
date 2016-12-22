@@ -112,6 +112,8 @@ getWeekdayName(weekday: Weekday.monday)
 func isItFinallyWeekend(weekday: Weekday) -> String {
     switch weekday {
     case .monday: return "\(weekday) is a regular workday."
+    case .saturday: return "\(weekday) is a weekend!"
     }
 }
+isItFinallyWeekend(weekday: Weekday.monday)
 
