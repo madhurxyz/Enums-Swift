@@ -115,5 +115,8 @@ func isItFinallyWeekend(weekday: Weekday) -> String {
     case .saturday, .sunday: return "woohooo, it's a \(weekday)!!!"
     }
 }
-isItFinallyWeekend(weekday: Weekday.monday)
+
+isItFinallyWeekend(weekday: Weekday.wednesday)
+isItFinallyWeekend(weekday: Weekday.friday)
+isItFinallyWeekend(weekday: Weekday.saturday)
 
