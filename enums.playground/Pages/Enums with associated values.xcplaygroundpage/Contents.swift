@@ -61,7 +61,9 @@ let phone = Thing(name: "phone")
 let chocolate = Thing(name: "chocolate")
 
 
-
+let soccerBox = Box.occupied(soccerBall)
+let phoneBox = Box.occupied(phone)
+let chocolateBox = Box.occupied(chocolate)
 
 
 
