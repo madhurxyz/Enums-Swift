@@ -72,5 +72,9 @@ func whatsInTheBox(box: Box) -> String {
     }
 }
 
+whatsInTheBox(box: newBox)
+whatsInTheBox(box: soccerBox)
+whatsInTheBox(box: phoneBox)
+whatsInTheBox(box: chocolateBox)
 
 
