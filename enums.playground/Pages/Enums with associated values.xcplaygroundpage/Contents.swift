@@ -49,6 +49,10 @@ class Thing {
         self.name = name
     }
 }
+enum Box {
+    case empty
+    case occupied(Thing)
+}
 
 
 
