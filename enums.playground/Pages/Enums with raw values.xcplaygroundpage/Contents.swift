@@ -102,4 +102,9 @@ func whichMonth(month: Month) -> String {
     default: return "This is the \(month.rawValue)th month of the year"
     }
 }
+whichMonth(month: .January)
+whichMonth(month: .February)
+whichMonth(month: .March)
+whichMonth(month: .June)
+whichMonth(month: .December)
 
