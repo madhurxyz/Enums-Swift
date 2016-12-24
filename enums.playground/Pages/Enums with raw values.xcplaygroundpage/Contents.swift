@@ -81,7 +81,7 @@ help(direction: .northEast)
 
 
 enum Month: Int {
-    case January
+    case January = 1
     case February
     case March
     case April
@@ -94,7 +94,5 @@ enum Month: Int {
     case November
     case December
 }
-
-
 
 
