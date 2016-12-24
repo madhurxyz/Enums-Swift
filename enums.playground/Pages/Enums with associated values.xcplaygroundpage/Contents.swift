@@ -65,7 +65,9 @@ let soccerBox = Box.occupied(soccerBall)
 let phoneBox = Box.occupied(phone)
 let chocolateBox = Box.occupied(chocolate)
 
-
+func whatsInTheBox(box: Box) -> String {
+    
+}
 
 
 
