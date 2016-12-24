@@ -66,7 +66,10 @@ let phoneBox = Box.occupied(phone)
 let chocolateBox = Box.occupied(chocolate)
 
 func whatsInTheBox(box: Box) -> String {
-    
+    switch box {
+    case .empty: return "The box is \(box)"
+    case .occupied(let thing): return "The box has a \(thing.name)"
+    }
 }
 
 
