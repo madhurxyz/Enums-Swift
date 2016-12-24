@@ -56,8 +56,11 @@ enum Box {
 
 let newBox = Box.empty
 
-let stuff = Thing(name: "stuff")
-let fullBox = Box.occupied(stuff)
+let soccerBall = Thing(name: "soccer ball")
+let phone = Thing(name: "phone")
+let chocolate = Thing(name: "chocolate")
+
+
 
 
 
