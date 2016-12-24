@@ -55,6 +55,8 @@ enum Box {
 }
 
 let newBox = Box.empty
+let fullBox = Box.occupied("Hi")
+
 
 
 
