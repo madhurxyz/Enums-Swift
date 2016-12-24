@@ -42,7 +42,13 @@ case .occupied(let person):
  5. Make the `Box` _generic_ so that it can contain an object of any type, not just `Thing`.
  */
 
-
+class Thing {
+    let name: String
+    
+    init(name: String){
+        self.name = name
+    }
+}
 
 
 
