@@ -94,5 +94,12 @@ enum Month: Int {
     case November
     case December
 }
-
+func whichMonth(month: Month) -> String {
+    switch month {
+    case .January: return "This is the \(month.rawValue)st month of the year"
+    case .February: return "This is the \(month.rawValue)nd month of the year"
+    case .March: return "This is the \(month.rawValue)rd month of the year"
+    default: return "This is the \(month.rawValue)th month of the year"
+    }
+}
 
