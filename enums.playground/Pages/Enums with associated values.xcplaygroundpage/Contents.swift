@@ -54,6 +54,8 @@ enum Box {
     case occupied(Thing)
 }
 
+let newBox = Box.empty
+
 
 
 
